@@ -128,14 +128,14 @@ license.licensee = {
 }
 
 # required of course
-license.starts_at         = Date.new(1976, 4, 1)
+license.starts_at         = Date.new(2026, 3, 3)
 puts Date.new()
 # required since gem gitlab-license v2.2.1
-license.expires_at        = Date.new(license_expire_year, 4, 1)
+license.expires_at        = Date.new(license_expire_year, 3, 3)
 
 # prevent gitlab crash at
 # notification_start_date = trial? ? expires_at - NOTIFICATION_DAYS_BEFORE_TRIAL_EXPIRY : block_changes_at
-license.block_changes_at  = Date.new(license_expire_year, 4, 1)
+license.block_changes_at  = Date.new(license_expire_year, 3, 3)
 
 # required
 license.restrictions      = {
